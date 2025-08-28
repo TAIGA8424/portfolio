@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,52 +9,76 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-  	.about{
-    	border:1px solid black;
-        transition: 0.7s;
+  	.donate{
+    	font-size:32px;
+        background-color:#330000;
+        border: 1px solid #990000;
+        border-radius:5px;
+        padding-right:15px;
+        padding-left:15px;
+        padding-bottom:5px;
     }
-    .about:hover{
-        padding-top:30px;
-        padding-bottom:30px;
-        border-radius:50px;
-        transition: 0.7s;
+    .donate:hover{
+    	font-size:36px;
+        background-color:#1a0000;
+        border: 2px solid red;
+        border-radius:5px;
+        padding-right:15px;
+        padding-left:15px;
     }
-  	.head{
-    	position: sticky;
-        top: 0;
-        z-index: 1000;
-    	background-color:gray;
-    	transition: 1s;
+  	.face{
+    	font-size:50px;
     }
-    .head:hover{
-    	font-size:20px;
-        background-color:#404040;
-    	transition: 1s;
-        
+    
+  	.face:hover{
+    	font-size:65px;
+        color:#0D74F2;
+    }
+    .ytb{
+    	font-size:50px;
+    }
+    
+  	.ytb:hover{
+    	font-size:65px;
+        color:red;
+    }
+    .tt{
+    	font-size:50px;
+    }
+    
+  	.tt:hover{
+    	font-size:65px;
+        border: 2px solid red;
+        border-radius:15px;
+        color:white;
+        padding-left:15px;
+        padding-right:15px;
     }
   	html {
     scroll-behavior: smooth;
 	}
   	#card{
-    	border-radius:50px;
+    	border-radius:55px;
     }
   	.imgg{
-    	width:25%;
+    	width:15%;
         border-radius:100%;
     	transition: 1s;
+        border:0px solid red;
     }
     .imgg:hover{
-    	width:35%;
+    	width:20%;
         border-radius:25%;
     	transition: 1s;
+        border:5px solid red;
     }
   	.bd{
-    	border:2px solid #4d0000;
+    	border:5px solid #4d0000;
         border-radius:50px;
         transition: 1s;
     }
     .bd:hover{
-    	border:2px solid red;
+    	border:5px solid red;
         border-radius:50px;
         transition: 1s;
     }
@@ -75,140 +100,37 @@
         color:white;
         transition: 1s;
     }
-    a:hover{
-        text-decoration: none;
-        color:red;
-        transition: 1s;
-    }
   </style>
 </head>
 <body>
 	<div class="cont">
-    	<div class="head">
-            <div style="padding-top:15px;"class="row">
-                <div class="col-sm-6">
-                    <p style="text-align:center;color:white;"><b>TAIGA Portfolio WebSite</b></p>
-                </div>
-                <div style="text-align:center;"class="col-sm-6">
-                    <a href="cc">About</a>
-                    <a href="cc">Education</a>
-                    <a href="cc">Contact</a>
-                </div>
-            </div>
-        </div>
-        <div id="card"style="text-align:center;background-color: #1a0000;margin-top:15px;"class="row">
-            <div class="bd"style="width:96%;background-color:#1a0000;padding-top:15px;margin-left:2%;margin-top:1%;margin-bottom:1%;">
+    	
+        <div id="card"style="text-align:center;background-color: #1a0000;margin-left:10%;margin-right:10%;"class="row">
+            <div class="bd"style="width:98%;background-color:#1a0000;padding-top:15px;margin-left:1%;margin-top:1%;margin-bottom:1%;">
                 <div style="padding-top:15px;"class="col-sm-12">
-                    <p style="text-align:center;color:white;"><b>Tôi là ai?</b></p>
+                    <p style="text-align:center;color:white;"><b>TAIGA</b></p>
                 </div>
                 <div style="text-align:center;"class="col-sm-12">
-                    <img class="imgg"src="https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/473694437_1998102770710700_8327637732090303592_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kmWEgsZzv2EQ7kNvgEoH1pa&_nc_oc=Adi6-GglRF2BcRqHO5cAdRJo7syjZGcrwE-OpV66RLT0wdHgdpM50L2x5wxhBsdVuLU&_nc_zt=23&_nc_ht=scontent.fdad3-5.fna&_nc_gid=AhCGFNa0zDJKWxsStlZ_re4&oh=00_AYBQ07tyEGiM3zdNHGMHzFFeFmfq4TLs0Mo14RBXb68H2Q&oe=67C5C03D">
+                    <img class="imgg"src="https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/473694437_1998102770710700_8327637732090303592_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3dkrtv8sJNoQ7kNvwE1AoaW&_nc_oc=AdkSXanjpYg_loH57saDXX5nX-3OWe5N7lGsdSyNa58nfcQXVP84_eEziirRm2H_FXs&_nc_zt=23&_nc_ht=scontent.fdad3-5.fna&_nc_gid=Qs2248nCesdfrEiJtXI5yA&oh=00_AfVYpf3AHLViP-SXkOe9WMNO38RiId456r50onjscD18jg&oe=68B3B6FD">
                 </div>
-                <div style="padding-top:0px;"class="col-sm-12">
-                    <p style="text-align:center;color:white;margin-top:15px;"><b>Đinh Đức Thịnh</b></p>
+                <div style=""class="col-sm-12">
+                    <p style="text-align:center;color:white;font-size:12px;padding-top:15px;">Editor lỏ + cựu thiếu nhi</p>
                 </div>
-                <div style="padding-bottom:30px;"class="col-sm-12">
-                    <p style="text-align:center;color:white;font-size:12px;">Editor lỏ + cựu thiếu nhi</p>
+                <div style="text-align:center;"class=col-sm-12>
+        			<a class="face"href="https://www.facebook.com/profile.php?id=100015329883613"><i class="fa-brands fa-facebook"></i></a> <a class="ytb"href="https://www.youtube.com/@TAIGA84"><i class="fa-brands fa-youtube"></i></a> <a class="tt"href="https://www.tiktok.com/@taiga_74164"><i class="fa-brands fa-tiktok"></i></a>
+            	</div>
+                
+                <div>
+                	<a class="donate" href="https://zypage.com/taiga84">Donate</a>
+                </div>
+                <div>
+                	<p>ㅤ</p>
                 </div>
             </div>
         </div>
-        	<div class="about">
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <h4 style="color:#ff6666;margin-top:15px;"><b>About tôi =))</b></h4>
-                    </div>
-                </div>
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <p>Họ tên</p>
-                    </div>
-                    <div class=col-sm-4>
-                        <p>Ngày sinh</p>
-                    </div>
-                    <div class=col-sm-4>
-                        <p>Địa chỉ</p>
-                    </div>
-                </div>
-        	
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <p>Đinh Đức Thịnh</p>
-                    </div>
-                    <div class=col-sm-4>
-                        <p>08/04/2004</p>
-                    </div>
-                    <div class=col-sm-4>
-                        <p>Đà Nẵng</p>
-                    </div>
-                </div>
-            </div>
-            <div class="about">
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <h4 style="color:#ff6666;"><b>Achievements</b></h4>
-                    </div>
-                </div>
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <h5>Thông thạo 7 yasuo</h5>
-                        <p>Sóng bắt đầu từ gió
-                            Gió bắt đầu từ Q
-                            Khi nào Hasagi
-                            Anh luôn tung Trăn trối
-                            Nếu pha ấy có lỗi
-                            Anh tốc biến quay đi
-                            Bật tường gió lên bấm
-                            Ctrl 6 siêu nhanh
-                            Thông thạo 7 sáng ngời
-                            Đó làm nên tên ĐẤNG !!</p>
-                    </div>
-                    <div class=col-sm-4>
-                        <h5>Phá đảo rank đồng</h5>
-                        <p>Thay vì chỉ có một đỉnh cao duy nhất, hãy hình dung các bậc Xếp Hạng là một dãy núi nhấp nhô trải dài. Mỗi đỉnh chinh phục được đều là một thành tựu đáng tự hào!</p>
-                    </div>
-                    <div class=col-sm-4>
-                        <h5>Giật giật cáp cút</h5>
-                        <p>Nếu bạn là một người dùng trung thành của TikTok chắc hẳn sẽ biết rất rõ về CapCut. Đây chính là trình tạo video miễn phí và chỉnh sửa video chính thức cho TikTok. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="about">
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <h4 style="color:#ff6666;"><b>Ê đu cây sừn</b></h4>
-                    </div>
-                </div>
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <p>2018 - 2021</p>
-                        <p>Trường Chinh school</p>
-                        <p>Gia Lai</p>
-                    </div>
-                    <div class=col-sm-8>
-                        <p>A paragraph of text in English that represents something to be stuffed into a website like a piece of shit to make it less empty. The previous paragraph was too short so another paragraph had to be written.</p>
-                    </div>
-
-                </div>
-            </div>
-            <div >
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-4>
-                        <h4 style="color:#ff6666;"><b>Tương tác</b></h4>
-                    </div>
-                </div>
-                <div style="padding-left:10%;padding-right:10%;"class="row">
-                    <div class=col-sm-6>
-                        <p>Thông tin liên hệ</p>
-                        <p>A paragraph of text in English that represents something to be stuffed into a website like a piece of shit to make it less empty. The previous paragraph was too short so another paragraph had to be written.</p>
-                    </div>
-                </div>
-        	</div>
         <div style="padding-left:10%;padding-right:10%;"class="row">
             <div class=col-sm-6>
         		<p>© 2024 - Đinh Đức Thịnh</p>
-            </div>
-            <div style="text-align:right;"class=col-sm-6>
-        		<a href="https://www.facebook.com/profile.php?id=100015329883613"><i class="fa-brands fa-facebook"></i></a> <a href="https://www.youtube.com/@TAIGA84"><i class="fa-brands fa-youtube"></i></a> <a href="https://www.tiktok.com/@taiga_74164"><i class="fa-brands fa-tiktok"></i></a>
             </div>
         </div>
     </div>
@@ -216,4 +138,3 @@
 
 </body>
 </html>
-
